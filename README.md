@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Ibnu Ubaidillah — Personal Portfolio
 
-## Getting Started
+A modern, responsive, and minimalist personal portfolio website built with **Next.js 16**, **Tailwind CSS 4**, and **Framer Motion**. Featuring a glassmorphism dark theme with violet/indigo accents.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- **Glassmorphism Dark Theme** — Semi-transparent cards with backdrop blur and violet/indigo gradient accents
+- **Animated Hero Section** — Gradient mesh blobs, glowing profile ring, and smooth entrance animations
+- **Skills & Tools Grid** — 14 technologies displayed with original logos in a responsive grid
+- **Project Showcase** — Interactive cards with click-to-view detail popup and direct repository links
+- **Certificates Gallery** — Certificate cards with image thumbnails and detail modal on click
+- **Fully Responsive** — Mobile-first design optimized for all screen sizes
+- **SEO Optimized** — Next.js Metadata API, Open Graph tags, Twitter Cards, semantic HTML5
+- **Smooth Animations** — Powered by Framer Motion with staggered reveals and hover effects
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|---|---|
+| **Framework** | Next.js 16 (App Router) |
+| **Styling** | Tailwind CSS 4 |
+| **Language** | TypeScript |
+| **Animations** | Framer Motion |
+| **Icons** | Lucide React |
+| **Deployment** | Vercel |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout with SEO metadata
+│   ├── page.tsx            # Homepage assembling all sections
+│   ├── globals.css         # Global styles, glassmorphism, animations
+│   └── certificates/
+│       └── page.tsx        # All certificates page
+├── components/
+│   ├── Hero.tsx            # Hero section with profile & intro
+│   ├── Skills.tsx          # Skills & tools grid
+│   ├── Projects.tsx        # Project cards with detail modal
+│   ├── Certificates.tsx    # Certificate cards with detail modal
+│   └── Footer.tsx          # Footer with social links
+└── lib/
+    ├── utils.ts            # Tailwind class merge utility
+    └── certificates-data.ts # Shared certificates data
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js 18+
+- npm
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Clone the repository
+git clone https://github.com/Ibnuubaidillah1009/portofolio.git
+cd portofolio
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Install dependencies
+npm install
 
-## Deploy on Vercel
+# Start development server
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Production Build
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+## 🌍 Deployment
+
+This project is configured for **Vercel** deployment. Simply push to your GitHub repository and connect it to Vercel for automatic deployments.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+---
+
+## 📬 Contact
+
+- **GitHub** — [@Ibnuubaidillah1009](https://github.com/Ibnuubaidillah1009)
+- **Instagram** — [@bayyyy_6](https://instagram.com/bayyyy_6)
+- **WhatsApp** — [Chat](https://wa.link/cffu6f)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+> Built with ❤️ by **Ibnu Ubaidillah** — Software Engineering Student at SMKN 1 Bangil
